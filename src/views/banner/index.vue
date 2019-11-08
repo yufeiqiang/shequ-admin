@@ -193,7 +193,7 @@ export default {
         publishPoster({id}).then(res =>{
           this.$message({
             type: 'success',
-            message: '发布成功!'
+            message: '发布成功!!!'
           });
           this.fetchData()
         })
